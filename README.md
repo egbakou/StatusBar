@@ -80,7 +80,7 @@ namespace StatusBar.Droid.PlatformCode
 
         public void HideStatusBar()
         {
-        	// Get current activity with CrossCurrentActivity
+       // Get current activity with CrossCurrentActivity
             Activity activity = CrossCurrentActivity.Current.Activity;
             var attrs = activity.Window.Attributes;
             _originalFlags = attrs.Flags;
