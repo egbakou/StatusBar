@@ -11,13 +11,12 @@
         VerticalOptions="Center">
 
         <Button
-            x:Name="ShowStatusBarButton"
-            Clicked="ShowStatusBarButton_Clicked"
-            Text="Hide" />
-        <Button
             x:Name="HideStatusBarButton"
             Clicked="HideStatusBarButton_Clicked"
-            IsEnabled="False"
+            Text="Hide" />
+        <Button
+            x:Name="ShowStatusBarButton"
+            Clicked="ShowStatusBarButton_Clicked"
             Text="Show" />
 
     </StackLayout>
