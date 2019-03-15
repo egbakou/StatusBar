@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="StatusBar.MainView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="StatusBar">
+
+    <StackLayout
+        HorizontalOptions="Center"
+        Orientation="Horizontal"
+        VerticalOptions="Center">
+
+        <Button
+            x:Name="ShowStatusBarButton"
+            Clicked="ShowStatusBarButton_Clicked"
+            Text="Hide" />
+        <Button
+            x:Name="HideStatusBarButton"
+            Clicked="HideStatusBarButton_Clicked"
+            IsEnabled="False"
+            Text="Show" />
+
+    </StackLayout>
+
+</ContentPage>
