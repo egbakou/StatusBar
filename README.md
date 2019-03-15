@@ -4,7 +4,7 @@
 
 ### Lioncoding article Link
 
-[Barcodes Reader in Xamarin.Forms](https://lioncoding.com/2019/02/21/2019-02-21-concevoir-un-lecteur-de-code-barres-avec-xamarin-forms/)
+[Hide or show Smarphone's status](https://lioncoding.com/2019/03/15/2019-03-15-interagir-avec-la-barre-de-statut-du-smartphone-dans-xamarin-forms/)
 
 ### Create your project
 
